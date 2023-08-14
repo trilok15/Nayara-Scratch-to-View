@@ -3,7 +3,7 @@ const scContainer = document.getElementById('js--sc--container');
 const sc = new ScratchCard('#js--sc--container', {
   scratchType: SCRATCH_TYPE.CIRCLE,
   containerWidth: scContainer.offsetWidth,
-  containerHeight: 75,
+  containerHeight: 100,
   imageForwardSrc: './imgs/front-image1.png',
   imageBackgroundSrc: './imgs/scratch-image1.jpeg',
   // htmlBackground: '<div class="inner_html"><p>Subscribe for more Videos</p></div>',
