@@ -17,6 +17,9 @@ body {
   max-width: 278px;
 }
 
+h3 {
+  position: absolute;
+}
 .sc__container > img {
   position: relative;
   top: 0;
@@ -26,8 +29,8 @@ body {
 }
 
 .sc__container canvas {
-  position: relative;
-  top: 200px;
+  position: absolute;
+  top: 60%;
   left: 0;
   width: 100%;
   height: auto;
